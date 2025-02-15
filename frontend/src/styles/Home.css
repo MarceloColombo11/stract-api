@@ -1,0 +1,68 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do body */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Container centralizado */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+}
+
+/* Lista */
+.list {
+    list-style: none;
+}
+
+/* Itens da lista */
+.item {
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s ease;
+    background-color: #fafafa;
+}
+
+.item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Link personalizado */
+.link {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: #005582;
+    text-decoration: underline;
+}
+
+/* Parágrafos internos */
+.item p {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}

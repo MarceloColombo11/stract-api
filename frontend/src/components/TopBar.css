@@ -1,0 +1,26 @@
+.top-bar {
+    background-color: #0077b5;
+    padding: 10px 20px;
+}
+
+.top-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.top-bar li {
+    /* Você pode adicionar mais estilos se necessário */
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.top-bar a:hover {
+    color: #e0e0e0;
+}
