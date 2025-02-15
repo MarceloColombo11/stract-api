@@ -1,6 +1,4 @@
 from main import app
-import requests
-from flask import jsonify
 from utils.utils import *
 
 api_token = app.config['API_TOKEN']
